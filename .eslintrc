@@ -10,6 +10,6 @@
     "prefer-template": "error"
   },
   "env": {
-    "browser": true,
+    "browser": true
   }
 }
