@@ -3,7 +3,7 @@
     "ecmaVersion": 2021,
     "sourceType": "module"
   },
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "prettier"],
   "rules": {
     "no-console": "off",
     "no-undef": "error",
