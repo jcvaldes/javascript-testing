@@ -34,3 +34,7 @@ npm test -- --coverage
 https://jestjs.io/es-ES/docs/cli
 ```
 
+## Material adicional obligatorio
+
+https://www.youtube.com/watch?v=Rqyg8kjpzX0&list=PLkr7dGY4D2sOQrmOcae2BBbeYZc7B5Fkq&index=4&t=976s
+
