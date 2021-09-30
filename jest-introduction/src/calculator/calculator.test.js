@@ -1,4 +1,4 @@
-const calculator = require('.');
+import { calculator } from '.';
 test('sum calc', () => {
   // Arrange
   const result = calculator.sum(2, 2);
