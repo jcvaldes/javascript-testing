@@ -4,7 +4,7 @@ import './App.css'
 const calculateBmi = ({weight, height}) => weight / (height * height)
 const calculateBmiEstimaion = ({bmi}) => {
   if (bmi <= 18.5) {
-    return 'Thiness'
+    return 'Thinness'
   }
   if (bmi > 18.5 && bmi <= 24.9) {
     return 'Normal'
@@ -23,9 +23,8 @@ function App() {
     e.preventDefault()
     const {height, weight} = e.target.elements
     const bmi = calculateBmi({weight: weight.value, height: height.value})
-    debugger
     const bmiEstimation = calculateBmiEstimaion({bmi})
-    setBmi(bmi)
+    setBmi(Number(bmi).toFixed(2))
     setBmiEstimation(bmiEstimation)
   }
 
@@ -33,7 +32,7 @@ function App() {
     <div className="App">
       <h1>BMI Calculator</h1>
       {bmi && <h2>BMI: {bmi}</h2>}
-      {bmiEstimation && <h2>BMI Estimation: {bmiEstimation}</h2>}
+      {bmiEstimation && <h2>BMI Estimation: {bmiEstimation.toLocaleString()}</h2>}
 
       <form onSubmit={handleSubmit}>
         <div>
