@@ -21,6 +21,16 @@ npm test -- --watch jest-matchers.test.js
 
 # Jest custom matchers
 
-```
 https://github.com/jest-community/jest-extended
+
 ```
+npm test path/to/my.test.js
+npm test -- --coverage
+```
+
+# Jest CLI
+
+```
+https://jestjs.io/es-ES/docs/cli
+```
+
