@@ -18,3 +18,9 @@ https://jestjs.io/docs/using-matchers
 ```
 npm test -- --watch jest-matchers.test.js
 ```
+
+# Jest custom matchers
+
+```
+https://github.com/jest-community/jest-extended
+```
