@@ -10,3 +10,11 @@
 - Aplicar pruebas unitarias, de integración y e2e en una app de React
 - Pruebas para backend en una api con Node JS y Express
 - Introducción a Test Driven Development en React
+
+# Jest
+
+https://jestjs.io/docs/using-matchers
+
+```
+npm test -- --watch jest-matchers.test.js
+```
