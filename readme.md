@@ -93,3 +93,9 @@ module.exports = {
 ```
 yarn add -D @testing-library/cypress
 ```
+
+## Prettier
+
+```
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+```
