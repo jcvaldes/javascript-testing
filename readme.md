@@ -87,3 +87,9 @@ module.exports = {
   },
 }
 ```
+
+## cypress testing-library
+
+```
+yarn add -D @testing-library/cypress
+```
