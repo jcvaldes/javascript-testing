@@ -64,6 +64,8 @@ yarn add -D @testing-library/vue @testing-library/jest-dom
 
 ## cypress
 
+https://docs.cypress.io/guides/references/assertions#Class
+
 ```
 yarn add -D cypress
 npx cypress open

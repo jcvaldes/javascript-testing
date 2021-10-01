@@ -47,3 +47,28 @@ npm run test:unit
 ```
 yarn add -D @testing-library/vue @testing-library/jest-dom
 ```
+
+
+## cypress
+
+```
+yarn add -D cypress
+npx cypress open
+```
+
+## cypress eslint
+
+yarn add eslint-plugin-cypress -D
+
+en el directorio de cypress poner el siguente .eslintrc.js
+
+```
+module.exports = {
+  root: true,
+  plugins: ['eslint-plugin-cypress'],
+  extends: ['plugin:cypress/recommended'],
+  env: {
+    'cypress/globals': true,
+  },
+}
+```
