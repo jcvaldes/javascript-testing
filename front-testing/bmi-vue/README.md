@@ -30,6 +30,19 @@ npm i -g @vue/cli
 ```
 
 ### Agrego unit jest
+
 ```
 vue add unit-jest
+```
+
+### Ejecuto test unitarios
+
+```
+npm run test:unit
+```
+
+### Instalar Jest en el proyecto
+
+```
+yarn add -D @testing-library/vue @testing-library/jest-dom
 ```
